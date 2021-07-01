@@ -8,11 +8,11 @@ Novedades en Mayo
 
 Contenido
 
-- [Lanzamiento del parche v1.6.3](https://github.com/DecredES/translations/new/master/decredJournal/2021#nuevo-parche-v163)
-- [Nueva tesorería activada](https://github.com/DecredES/translations/new/master/decredJournal/2021#la-nueva-tesorer%C3%ADa-por-fin-se-encuentra-activa)
+- [Lanzamiento del parche v1.6.3](https://github.com/DecredES/translations/blob/master/decredJournal/2021/05/index.md#nuevo-parche-v163)
+- [Nueva tesorería activada](https://github.com/DecredES/translations/blob/master/decredJournal/2021/05/2021#la-nueva-tesorer%C3%ADa-por-fin-se-encuentra-activa)
 - [Desarrollo]()
-- [Comunidad](https://github.com/DecredES/translations/new/master/decredJournal/2021#comunidad)
-- [Gobernanza](https://github.com/DecredES/translations/new/master/decredJournal/2021#gobernanza)
+- [Comunidad](https://github.com/DecredES/translations/blob/master/decredJournal/2021/05/2021#comunidad)
+- [Gobernanza](https://github.com/DecredES/translations/blob/master/decredJournal/2021/05/2021#gobernanza)
 - [Red]()
 - [Ecosistema]()
 - [Divulgación]()
