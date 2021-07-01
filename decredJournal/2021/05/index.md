@@ -126,3 +126,47 @@ Versiones de nodo a partir de la [instantánea](https://nodes.jholdstock.uk/user
 - compilaciones de desarrollo v1.7 - 8%
 - compilaciones de desarrollo v1.6 4%
 - v1.5.2–3%, v1.5.1–2.7%, v1.5.0–0.8%.
+
+## Ecosistema
+
+Bienvenido a la nueva instancia de [vspd](https://github.com/decred/vspd) [123.dcr.rocks](https://123.dcr.rocks/) de [@thefrankbraun](https://twitter.com/thefrankbraun). La tarifa del servicio es del 0.49% y las billteras de votación están [ubicadas](https://twitter.com/thefrankbraun/status/1389014142095437825) en 3 centros de datos en 2 continentes. Desde que se incluyó en la lista el 1 de mayo, el servicio ya ha votado ~ 430 tickets y gestiona ~ 650 tickets a partir del 8 de junio.
+
+Legacy VSP [dcrpool.dittrex.com](https://dcrpool.dittrex.com/) fue [eliminado](https://github.com/decred/dcrwebapi/pull/140) de la [lista](https://decred.org/vsp/), pero todavía está en línea viendo su último ticket en vivo. El servicio ha votado más de 800 tickets desde [noviembre de 2018](https://github.com/decred/dcrwebapi/pull/48). La instancia vspd de reemplazo de Dittrex está activa, [esperando](https://github.com/decred/dcrwebapi/pull/133) su primer ticket votado para agregarse a la lista.
+
+No todos los intercambios manejaron la sexta actualización de consenso de Decred sin problemas:
+
+- Binance se ha actualizado por adelantado y no se vio afectado por la bifurcación cuando sucedió.
+- Bittrex se atascó en el bloque [552 447](https://explorer.dcrdata.org/block/552447), el último bloque que se adhiere a las antiguas reglas de consenso. Su [página de estado](https://global.bittrex.com/Status) informó que la billetera DCR estaba deshabilitada y en "Mantenimiento de billetera", que cambió a "Normal" alrededor del 13 de mayo.
+- Poloniex [tuiteó](https://twitter.com/PoloSupport/status/1390916088397852675) que su billetera DCR fue deshabilitada por "mantenimiento" (~ 4 horas después de la actualización de consenso), y [tuiteó nuevamente](https://twitter.com/PoloSupport/status/1395727656251973639) el 21 de mayo que se volvió a habilitar.
+
+Desde aproximadamente el 17 de mayo, los usuarios de Ledger Live han estado informando problemas con la sincronización y el envío de su DCR. La última actualización en la [página de incidentes](https://status.ledger.com/incidents/j1sypv88pgs6) de Ledger dice que la solución se estaba probando el 20 de mayo, pero su [tweet](https://status.ledger.com/incidents/j1sypv88pgs6) del 3 de junio confirma que el problema aún no está resuelto. A partir del 8 de junio, la [página de estado](https://status.ledger.com/) informa una interrupción de DCR y un 75% de tiempo de actividad durante los últimos 90 días.
+
+Los siguientes servicios se han eliminado de decred.org:
+
+- [instaex.io](https://instaex.io/) — El sitio está caido.
+- [fexpro.net](https://fexpro.net/) — Errores de certificado.
+- [changenow.io](https://changenow.io/) — Los pares de trading DCR se encuentran [inactivos](https://github.com/decred/dcrweb/pull/988) por más de tres meses.
+- [transak.com](https://global.transak.com/) — [Ya no parece admitir](https://github.com/decred/dcrweb/issues/984) la compra de DCR.
+- Se [eliminaron](https://github.com/decred/dcrweb/issues/983) 6 OTC ya que ninguno de ellos citaba activamente a DCR.
+
+[MarketplaceGOLD](https://marketplacegold.com/) ha compilado una lista de comerciantes que [aceptan DCR a nivel mundial](https://marketplacegold.com/crypto/186-decred-dcr) y lo [anunció en r / decred](https://www.reddit.com/r/decred/comments/nbcvob/where_decred_dcr_is_accepted_locally_and_globally/).
+
+```
+
+Advertencia: los autores de la revista DEcred no tienen idea de la confiabilidad de ninguno de los servicios mencionados anteriormente. Haga su propia investigación antes de confiar su información personal o sus activos a cualquier entidad.
+
+```
+
+Únase a nuestro chat de [#services](https://chat.decred.org/#/room/#services:decred.org) para seguir las actualizaciones del ecosistema Decred.
+
+## Alcance
+
+Logros de Monde PR para mayo:
+- Lanzó 2 historias para publicaciones financieras y criptográficas.
+- Respondió a 12 solicitudes de comentarios / oportunidades de relaciones públicas.
+- Consiguió 2 entrevistas con los medios.
+
+Cobertura de noticias por Monde PR:
+- Un artículo en [Brave New Coin](https://bravenewcoin.com/insights/crypto-market-forecast-week-of-may-3rd-2021) con noticias sobre la activación de la tesorería descentralizada.
+- Un artículo en [CoinDesk](https://www.coindesk.com/bitcoiners-future-consensus-2018-2021) con comentarios de @lukebp sobre su experiencia en Consensus. La pieza fue distribuida a [Yahoo! Finanzas](https://finance.yahoo.com/news/8-400-bitcoiners-went-hilton-200356039.html).
+- El anuncio de integración de DCRDEX fue cubierto por [Bankless Times](https://www.banklesstimes.com/2021/05/27/decred-announces-initial-dcrdex-integration-into-decrediton-wallet/) y [Crowdfund Insider](https://www.crowdfundinsider.com/2021/05/175918-digital-currency-project-decred-announces-initial-integration-of-its-decentralized-exchange-into-decrediton-wallet/). El artículo de Crowdfund Insider se distribuyó a [Crypto News BTC](https://cryptonewsbtc.org/2021/05/28/digital-currency-project-decred-announces-initial-integration-of-its-decentralized-exchange-into-decrediton-wallet/), [MCC Exchange](https://mcc.exchange/2021/05/27/digital-currency-project-decred-announces-initial-integration-of-its-decentralized-exchange-into-decrediton-wallet/) y [MoneyNow](https://moneynow.cc/decreds-virtual-currency-allocation-announces-initial-integration-of-its-decentralized-wallet-into-decrediton-wallet/). El anuncio también fue cubierto por [CryptoNEXA](https://www.cryptonexa.com/2021/06/02/decred-and-zcash-lead-the-weekly-top/), [CriptoNoticias](https://www.criptonoticias.com/mercados/decred-zcash-lideran-top-semanal-mercado-halla-plena-recuperacion/) y [Crypto News](https://cryptonews.com/news/polygon-enjin-decred-uniswap-and-horizen-led-the-market-last-10514.htm). El artículo de Crypto News se distribuyó a [IQ Stock Market](https://www.iqstockmarket.com/n/polygon-enjin-decred-uniswap-horizen-led-market-last-week-2325136/).
