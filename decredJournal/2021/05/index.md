@@ -8,11 +8,11 @@ Novedades en Mayo
 
 Contenido
 
-- [Lanzamiento del parche v1.6.3](https://github.com/DecredES/translations/blob/master/decredJournal/2021/05/index.md#nuevo-parche-v163)
-- [Nueva tesorería activada](https://github.com/DecredES/translations/blob/master/decredJournal/2021/05/2021#la-nueva-tesorer%C3%ADa-por-fin-se-encuentra-activa)
+- [Lanzamiento del parche v1.6.3]()
+- [Nueva tesorería activada]()
 - [Desarrollo]()
-- [Comunidad](https://github.com/DecredES/translations/blob/master/decredJournal/2021/05/2021#comunidad)
-- [Gobernanza](https://github.com/DecredES/translations/blob/master/decredJournal/2021/05/2021#gobernanza)
+- [Comunidad]()
+- [Gobernanza]()
 - [Red]()
 - [Ecosistema]()
 - [Divulgación]()
@@ -86,3 +86,43 @@ En mayo, el fondo de la tesorería recibió 11 342 DCR (2 564 para la [direcció
 En mayo se presentó y aprobó 1 propuesta, la propuesta para el desarrollo continuo de Politeia (detallada el [mes pasado](https://xaur.github.io/decred-news/journal/202104)) tuvo una aprobación del 98.4% y una participación del 44%.
 
 Se han [agregado](https://twitter.com/_Checkmatey_/status/1392266971228430338) gráficos de la tesorería en [checkonchain.com](https://checkonchain.com/) para ayudar con las decisiones de gobernanza en torno a los gastos.
+
+## Red
+
+Hashrate: el [hashrate](https://explorer.dcrdata.org/charts?chart=hashrate&zoom=ko2vefoc-kpf16yhd&scale=linear&bin=block&axis=time) de mayo se abrió a ~418 Ph/s y cerró ~  351Ph/s, tocando fondo en 234 Ph/s alcanzando un máximo de 497 Ph/s durante todo el mes. 
+
+Parece haber una correlación entre el repunte de precios de diciembre a abril de ~ 25 a ~ 200 USD y el aumento de la tasa de hash de ~ 350 a 450–550 Ph / s. Luego, en la dirección opuesta, la corrección de precios del 17 al 23 de abril se produjo a lo largo de la caída de la tasa de hash de ~ 450 a ~ 250 Ph / s. Más recientemente, la disminución de la tasa de hash del 10 al 23 de mayo se correlacionó con la caída del precio de ~ 200 a ~ 110 USD.
+
+
+Distribución del hashrate [reportada en los pools](https://miningpoolstats.stream/decred) el 1 de junio:
+
+- Poolin 39%
+- F2Pool 17%
+- Antpool 3%
+- BTC.com 1.6%
+- Luxor 1.3%
+- Huobipool 0.4%
+- UUPool 0.1%
+- Coinmine 0.05%
+- okex 0.01%
+- Otros 38%
+
+La distribución de [1 000 bloques realmente extraídos](https://miningpoolstats.stream/decred) casi coincide con el hashrate informado. Los bloques minados no identificados se dividen en 4 direcciones: [Dsacz](https://explorer.dcrdata.org/address/DsaczRtjC31N6XVV69qcBoyR2BEEmjRDay3?chart=balance&zoom=kmcdrds0-kpz09i80&bin=month) 25%, [DsR4G](https://explorer.dcrdata.org/address/DsR4GSVsMxShvk6dpod9DBTbX7DuZhE2jjs?chart=balance&zoom=kmcdrds0-kr5vh280&bin=month) 7%, [DsbNN](https://explorer.dcrdata.org/address/DsbNNnupnCWd9MrHycs1NvwrtfhSYKF6ZGB?chart=balance&zoom=kl433z40-kr5vh280&bin=month) 4% y [DsaWD](https://explorer.dcrdata.org/address/DsaWDBxVjxtV1ugqXsV3PGmAD4jLwryvSX3?chart=balance&zoom=knj8yxs0-kr5vh280&bin=month) 0,2%.
+
+**Staking**: el precio de los tickets varió entre 173-198 DCR, con un promedio de 30 días de 183.7 DCR (-2.1).
+
+[La cantidad bloqueada](https://explorer.dcrdata.org/charts?chart=ticket-pool-value&zoom=ko2vefoc-kpf16yhd&scale=linear&bin=block&axis=time) fue de 7.39 a 7.62 millones de DCR, lo que significa que del 57.2 al 58.7% del suministro circulante [participó](https://explorer.dcrdata.org/charts?chart=stake-participation&zoom=ko2vefoc-kpf16yhd&scale=linear&bin=block&axis=time) en la prueba de participación.
+
+**VSP**: El 1 de junio, los servidores vspd administraron 8 200 (+ 1 100) tickets y los servidores dcrstakepool anteriores que [aún figuran en la lista](https://decred.org/vsp/), 1 100 (- 1 100). En conjunto, los 12 sistemas anteriores y los 13 nuevos VSP administraron el 22.5% del grupo de tickets. Los VSP anteriores recientemente excluidos de la lista, pero aún activos, administraron 61 tickets.
+
+El 14 de mayo se [descubrió](https://github.com/decred/dcrwebapi/issues/138) que 4 VSP anteriores no se actualizaron a las nuevas reglas de consenso y se bifurcaron fuera de la red el 8 de mayo, mientras tenían ~ 350 tickets de sus clientes. Todos menos uno finalmente se actualizaron para continuar sirviendo sus tickets, mientras que [Stakepool.dcrstats.com](https://stakepool.dcrstats.com/) cambió al modo de mantenimiento y dejó de informar las estadísticas. El estado de sus 77 tickets en vivo se desconoce al 8 de junio.
+
+**Nodos**: a lo largo de mayo hubo alrededor de 215 nodos accesibles según [dcrextdata](https://analytics.planetdecred.org/).
+
+Versiones de nodo a partir de la [instantánea](https://nodes.jholdstock.uk/user_agents) del 1 de junio (252 en total, solo dcrd): 
+- v1.6.2–42%
+- v1.6.0–21%
+- v1.6.1–17%
+- compilaciones de desarrollo v1.7 - 8%
+- compilaciones de desarrollo v1.6 4%
+- v1.5.2–3%, v1.5.1–2.7%, v1.5.0–0.8%.
