@@ -262,8 +262,9 @@ Esta es la edición número 38 de la Revista Decred. Un índice de todas las edi
 La mayoría de la información de terceros se transmite directamente desde la fuente después de un control de fiabilidad mínimo. Los autores de la Revista Decred no tienen la capacidad de verificar todas las reclamaciones. Tenga cuidado con las estafas y haga su propia investigación.
 
 Créditos (por orden alfabético)
-Escritura y redacción: bee, degeri, l1ndseymm, richardred
-Revisión y comentarios: chappjc, davecgh, dnldd, jholdstock, karamble, lukebp, matheusd, oshorefueled
-Imagen de portada: saender
-Financiado por: Los stakeholders de Decred
+
+- Escritura y redacción: bee, degeri, l1ndseymm, richardred
+- Revisión y comentarios: chappjc, davecgh, dnldd, jholdstock, karamble, lukebp, matheusd, oshorefueled
+- Imagen de portada: saender
+- Financiado por: Los stakeholders de Decred
 
