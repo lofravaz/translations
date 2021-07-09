@@ -63,6 +63,24 @@ Este comando expresa su confianza en la administración de la tesorería actual 
 
 ¡Felicitaciones a todas los stake holders por este hito y gracias a todos los [colaboradores](https://twitter.com/matheusd_tech/status/1390981711736053760) que lo han hecho realidad!
 
+## Desarrollo
+
+[**dcrd**](https://github.com/decred/dcrd)
+[**dcrwallet**](https://github.com/decred/dcrwallet)
+[**Decrediton**](https://github.com/decred/decrediton)
+[**Politeia**](https://github.com/decred/politeia)
+[**vspd**](https://github.com/decred/vspd)
+[**dcrstakepool**](https://github.com/decred/dcrstakepool)
+[**dcrpool**](https://github.com/decred/dcrpool)
+[**DCRDEX**](https://github.com/decred/dcrdex)
+[**dcrandroid**](https://github.com/planetdecred/dcrandroid)
+[**dcrios**](https://github.com/planetdecred/dcrios)
+[**godcr**](https://github.com/planetdecred/godcr)
+[**dcrdata**](https://github.com/decred/dcrdata)
+[**docs**](https://github.com/decred/dcrdocs)
+[**decred.org**](https://github.com/decred/dcrweb)
+
+
 ## Comunidad
 
 Damos la bienvenida a los nuevos colaboradores con código fusionado de la rama principal: @LasTshaMAN ([politeia](https://github.com/decred/politeia/commits?author=LasTshaMAN))!
