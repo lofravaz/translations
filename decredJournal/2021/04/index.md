@@ -99,3 +99,15 @@ La presencia de Bison ha sido detectada en [LN](https://ln-map.jholdstock.uk/) c
 
 
 ## Ecosistema
+
+Bienvenido al nuevo servidor [vspd](https://github.com/decred/vspd) de [stakey.com](https://vspd.stakey.com/) con una tarifa del 0.3%, la más baja del mercado al momento de escribir este artículo. Su servidor VSP antiguo se eliminó de la [lista](https://decred.org/vsp/), pero aún está operativo con 80 [tickets en vivo](https://stakey.com/stats) a partir del 7 de mayo.
+
+Se observó el [VSP antiguo](https://vsp.dcr.farm/) de dcr.farm con una tarifa del 30%, posiblemente para desalentar nuevos registros. Preste atención a las tarifas para no comprar un ticket de tarifa alta por accidente. El servidor [vspd de dcr.farm](https://vsp.dcr.farm/) tiene una tarifa normal del 0.95%.
+
+[Baap ATM](https://baap.app/) [tuiteó](https://twitter.com/baapapp/status/1376975012830326786) que sus cajeros automáticos y agentes ayudarán a comprar DCR por CAD en algunos lugares de Canadá.
+
+Advertencia: los autores de la revista Decred no tienen idea de la confiabilidad de ninguno de los servicios mencionados anteriormente. Haz tu propia investigación antes de confiar tu información personal o tus activos.
+
+Únete a nuestro chat de [#services](https://chat.decred.org/#/room/#services:decred.org) para seguir las actualizaciones del ecosistema de Decred.
+
+## Alcance
