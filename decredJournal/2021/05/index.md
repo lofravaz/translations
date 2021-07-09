@@ -170,3 +170,56 @@ Cobertura de noticias por Monde PR:
 - Un artículo en [Brave New Coin](https://bravenewcoin.com/insights/crypto-market-forecast-week-of-may-3rd-2021) con noticias sobre la activación de la tesorería descentralizada.
 - Un artículo en [CoinDesk](https://www.coindesk.com/bitcoiners-future-consensus-2018-2021) con comentarios de @lukebp sobre su experiencia en Consensus. La pieza fue distribuida a [Yahoo! Finanzas](https://finance.yahoo.com/news/8-400-bitcoiners-went-hilton-200356039.html).
 - El anuncio de integración de DCRDEX fue cubierto por [Bankless Times](https://www.banklesstimes.com/2021/05/27/decred-announces-initial-dcrdex-integration-into-decrediton-wallet/) y [Crowdfund Insider](https://www.crowdfundinsider.com/2021/05/175918-digital-currency-project-decred-announces-initial-integration-of-its-decentralized-exchange-into-decrediton-wallet/). El artículo de Crowdfund Insider se distribuyó a [Crypto News BTC](https://cryptonewsbtc.org/2021/05/28/digital-currency-project-decred-announces-initial-integration-of-its-decentralized-exchange-into-decrediton-wallet/), [MCC Exchange](https://mcc.exchange/2021/05/27/digital-currency-project-decred-announces-initial-integration-of-its-decentralized-exchange-into-decrediton-wallet/) y [MoneyNow](https://moneynow.cc/decreds-virtual-currency-allocation-announces-initial-integration-of-its-decentralized-wallet-into-decrediton-wallet/). El anuncio también fue cubierto por [CryptoNEXA](https://www.cryptonexa.com/2021/06/02/decred-and-zcash-lead-the-weekly-top/), [CriptoNoticias](https://www.criptonoticias.com/mercados/decred-zcash-lideran-top-semanal-mercado-halla-plena-recuperacion/) y [Crypto News](https://cryptonews.com/news/polygon-enjin-decred-uniswap-and-horizen-led-the-market-last-10514.htm). El artículo de Crypto News se distribuyó a [IQ Stock Market](https://www.iqstockmarket.com/n/polygon-enjin-decred-uniswap-horizen-led-market-last-week-2325136/).
+
+## Media
+
+Artículos seleccionados:
+- Big Tech on steroids: por qué la década de 2020 será la "década del DAO" por [Dominic Frisby](https://en.wikipedia.org/wiki/Dominic_Frisby) ([MoneyWeek](https://moneyweek.com/investments/alternative-finance/bitcoin-crypto/603213/decade-of-the-dao-decentralised-autonomous-organisation))
+- Thinking Out Loud #2: juerga de gráficos Decred por @PermabullNino ([substack.com](https://permabullnino.substack.com/p/thinking-out-loud-2-decred-charting))
+
+Videos:
+- Supply finito — Fundamentales de Decred por @phoenixgreen ([youtube](https://www.youtube.com/watch?v=pRIEiCvBYPE))
+- ¿Por qué la gobernanza es importante — Fundamentales de Decred por @phoenixgreen ([youtube](https://www.youtube.com/watch?v=hrL4sS8HuXg))
+- Actualización Decred — $150M DAO manejado por stakeholders, DCRDEX en la dcrwallet, v1.6.2 y más por @Exitus ([youtube](https://www.youtube.com/watch?v=S_asvjm4lFI))
+- ¿Por qué esta es la década de la DAO? — Big Tech on steroids por Dominic Frisby ([youtube](https://www.youtube.com/watch?v=dQLN-DNnVKU))
+- Decred 2021: DCR coin (Explicación de Decred) por Layah Heilpern de Exodus ([youtube](https://www.youtube.com/watch?v=Kkb4BWmth7k))
+- Análisis del precio de Decred — 26 de Mayo del 2021 por Josh Olszewicz de Brave New Coin ([youtube](https://www.youtube.com/watch?v=LUg_DXUHdmg))
+- Talking Decred con Jake Yocom-Piatt por Dominic Frisby ([youtube](https://www.youtube.com/watch?v=ZCfIM8IHurU)) — @jy-p insinuado en la actualización de la tecnología de mezcla con criptografía post-cuántica.
+
+Arte y diversión:
+- Los juegos están amañados: la revolución no será centralizada por @karamble ([twitter](https://twitter.com/karamblez/status/1398087058892148740))
+- [Lego Stakey](https://twitter.com/Talha_Habib/status/1398268623572111362) hecho por jóvenes hodlers
+- @jz ha estado ocupado con el hashtag [#RealDecredMemes](https://twitter.com/hashtag/RealDecredMemes): [gráfico / menú de médula de DCR](https://twitter.com/jz_bz/status/1391442849808408580), [águila de la libertad](https://twitter.com/jz_bz/status/1392177374008053760), [niveles de iluminación](https://twitter.com/jz_bz/status/1395560884433473537) de los votantes, [lluvia de ideas](https://twitter.com/jz_bz/status/1396211915098136578).
+- CoinDesk envía [señales contradictorias](https://twitter.com/CoinDesk/status/1395432897834848256) sobre su simpatía por Stakey.
+
+Traducciones:
+- La Revista Decred edición de Abril 2021 se [tradujo](https://xaur.github.io/decred-news/) al árabe (@arij, @ abdulrahman4) y al chino (@Dominic). ¡Gracias a todos!
+
+Otro contenido no en Inglés:
+- Nuevo fondo de tesorería en Decred cubierto por [CriptoNoticias](https://www.criptonoticias.com/comunidad/protocolo-decred-esta-5-dias-descentralizar-tesoreria/).
+- Parece que @Dominic ejecuta en secreto un nuevo podcast Decred en chino con 3 episodios ya publicados: [primero](https://twitter.com/wanbihou/status/1383625001098649602) con un ingeniero de hardware anónimo sobre eventos en la comunidad, [segundo](https://twitter.com/wanbihou/status/1388412787076984832) sobre gobernanza con decreder y [tercero](https://twitter.com/wanbihou/status/1393825045902807041) con Mable Jiang de 51% Podcast (donde @Dominic fué un [invitado](https://podcasts.apple.com/cn/podcast/51-with-mable-jiang-presented-by-multicoin-capital/id1540917284?l=en&i=1000515571194) recientemente).
+
+![lego-image]()
+
+## Discusiones
+
+Hilos seleccionados de Reddit:
+- [Prueba de espacio y tiempo](https://www.reddit.com/r/decred/comments/n2sdwq/thoughts_on_alternatives_to_proof_of_work/) de Chia (PoST) como reemplazo de PoW.
+- Mi novia hizo este delicioso [pastel](https://www.reddit.com/r/decred/comments/n7l6ca/my_gf_made_this_deliciously_looking_cake_full_of/) lleno de Decred.
+- Decred: [directo a la luna](https://www.reddit.com/r/decred/comments/ncnmca/decred_a_moonshot_and_the_continuity_of_proof_of/), y la continuidad de la prueba del consenso de trabajo.
+- ¿[Aún necesitamos](https://www.reddit.com/r/decred/comments/njdrw6/do_we_still_need_centralized_exchanges/) a los exchanges centralizados?.
+- Por qué Decred vale un [porcentaje distinto de cero](https://www.reddit.com/r/decred/comments/nors4z/why_decred_is_worth_a_nonzero_percentage_of/) de la capitalización de mercado de Bitcoin.
+
+Discusiones seleccionadas de Twitter:
+- [Un largo debate](https://twitter.com/lukebp_/status/1388987670832074758) entre @lukebp y @BuckPerley sobre gobernanza formal e informal.
+
+> La DAO de Decred ha logrado un nuevo hito para todo el espacio criptográfico: un fondo de riqueza soberana digital.
+> 
+> La red de Decred es lo más parecido a un estado de Nación Digital.
+>
+> Un DAO de Capa 1 con su propia tesorería, su propio exchange, su propia moneda y su propia billetera. ([@ammarooni](https://twitter.com/Ammarooni/status/1390869248910794753)).
+
+![Decred-cake]()
+
+## Mercados
+
