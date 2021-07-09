@@ -223,3 +223,47 @@ Discusiones seleccionadas de Twitter:
 
 ## Mercados
 
+En Mayo, DCR cotizaba entre 90.4 y 229.4 USD / 0.0027 a 0.0047 BTC. La tarifa diaria promedio fue de $173.47.
+
+@PermabullNino publicó una "[ola de gráficos](https://permabullnino.substack.com/p/thinking-out-loud-2-decred-charting)" con muchas métricas exclusivas de Decred y comentarios sucintos. USD 40 y BTC 0.004 parecen ser niveles importantes para muchos mineros y stakers.
+
+La serie de @PermabullNino, "[Permabullish Banter](https://permabullnino.substack.com/)", informa que la impresora de monedas estables está en modo "brr" completo, y algunas [ideas](https://permabullnino.substack.com/p/pb-banter-5-25-2021) sobre el USDC.
+
+@Checkmate ha actualizado [checkonchain.com](https://checkonchain.com/) con nuevos gráficos que rastrean el [volumen](https://twitter.com/_Checkmatey_/status/1391743198242885634) de operaciones del [dondo de tesorería de Decred](https://www.reddit.com/r/decred/comments/nakdpc/new_decred_onchain_metric_charts_live/) y DCRDEX.
+
+Se ha ha negociado 383 000 DCR y 1 400 BTC en mayo dentro del [DCRDEX](https://dex.decred.org/), con un promedio de volumen diario de operaciones de 12 000 DCR y 46 BTC.
+
+## Relevantes Externos
+[La señalización](https://taproot.watch/) para la activación de Taproot en Bitcoin ha alcanzado un nivel superior al 90% (a principios de junio en ~ 97%) y está programado para bloquearse en algún momento de junio cuando finalice la ventana de señalización actual.
+
+Según los [informes](https://www.coindesk.com/iran-central-bank-ban-trading-crypto-mined-abroad), el Banco Central de Irán ha prohibido el comercio de criptomonedas que se "extraen en el extranjero", en un esfuerzo por detener la fuga de capitales. Las empresas iraníes todavía pueden obtener criptomonedas de mineros iraníes registrados, para usarlas en pagos internacionales.
+
+El grupo de minería de Bitcoin Marathon Mining [ha extraído](https://www.coindesk.com/marathon-miners-censor-bitcoin-transactions-ofac-compliant) un bloque que describe como "totalmente compatible con las regulaciones de EE. UU.", Habiendo censurado transacciones de entidades que cree que están sancionadas por el Departamento del Tesoro de EE. UU. O han estado involucradas en la actividad de la dark web. A pesar de sus esfuerzos, algunas transacciones del mercado de la dark web llegaron a este bloque, que estaba destinado a ser un hito para la censura de Bitcoin.
+
+Después de que Elon Musk criticara las características ambientales de Bitcoin y Tesla [dejara](https://twitter.com/elonmusk/status/1392602041025843203) de aceptarlo como pago, se unió a Michael Saylor y otros para [promover](https://twitter.com/elonmusk/status/1392602041025843203) un nuevo "Consejo Minero de Bitcoin para promover la transparencia en el uso de la energía y acelerar las iniciativas de sostenibilidad en todo el mundo".
+
+Cathie Wood, de Ark, también [comentó](https://www.coindesk.com/ark-cathie-wood-crash-esg-movement) en Consensus que las preocupaciones de ESG (Environmental Social and Governance) con Bitcoin significaron que "muchas compras institucionales se detuvieron", lo que atribuye a Elon Musk un papel en este movimiento.
+
+El DAO PoolTogether, asociado con la lotería Pool Together y que controla más del 50% de todos los tokens POOL, [ha votado](https://snapshot.org/#/poolpool.pooltogether.eth/proposal/QmfDcwyhMyhiTmszt8EX1a2vGfJzAN5TcXGMUwm7W7G7rq) para [diversificar](https://gov.pooltogether.com/t/ptip-11-treasury-diversification/963) las tenencias vendiendo el 5.38% de todos los tokens POOL, actualmente controlados por el DAO, a una selección de VC por la suma acordada de 7 millones de USDC. Los tokens de POOL comprados por los VC tendrán un período de bloqueo de 1 año, que se otorgará durante un período de 1 año siguiente.
+
+Esto es parte de una aparente [tendencia](https://www.coindesk.com/synthetix-baderdao-sushiswap-lido-dao-treasuries) reciente de los DAO a diversificar sus tenencias.
+
+La gran víctima de la quiebra del préstamo flash de Ethereum de mayo fue xToken, donde un atacante [explotó](https://www.theblockcrypto.com/post/104667/defi-protocol-xtoken-exploit-attack) errores en dos contratos diferentes dentro de la misma transacción, obteniendo una ganancia de $24.5 millones después de pagar una tarifa de transacción de $21 900 para obtener el préstamo flash.
+
+Binance Smart Chain ahora está proporcionando [competencia](https://www.crowdfundinsider.com/2021/05/175611-defi-hack-analysis-project-pancakebunny-attacked-via-major-200-million-flash-loan-vulnerability/) para Ethereum en DeFi, después de que los tokens BUNNY fueron alcanzados por $200 millones en tokens mal generados después de una hazaña económica con, lo adivinó, préstamos flash.
+
+Coinbase está [ampliando](https://decrypt.co/72109/coinbase-says-its-a-media-company-really) su cometido para convertirse también en una empresa de medios, yendo directamente a su audiencia con contenido de tipo "verificación de hechos" aprobado por su departamento de marketing.
+
+Eso es todo por mayo. Comparte tus historias para el próximo número en nuestro chat de [#journal](https://chat.decred.org/#/room/#journal:decred.org) desclasificado.
+
+## Sobre esta edición
+Esta es la edición número 38 de la Revista Decred. Un índice de todas las ediciones, y traducciones están disponibles [aquí](https://xaur.github.io/decred-news/).
+
+La mayoría de la información de terceros se transmite directamente desde la fuente después de un control de fiabilidad mínimo. Los autores de la Revista Decred no tienen la capacidad de verificar todas las reclamaciones. Tenga cuidado con las estafas y haga su propia investigación.
+
+Créditos (por orden alfabético)
+Escritura y redacción: bee, degeri, l1ndseymm, richardred
+Revisión y comentarios: chappjc, davecgh, dnldd, jholdstock, karamble, lukebp, matheusd, oshorefueled
+Imagen de portada: saender
+Financiado por: Los stakeholders de Decred
+
