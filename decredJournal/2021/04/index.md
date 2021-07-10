@@ -1,6 +1,6 @@
 # Revista Decred Abril 2021
 
-![portada]()
+![portada](./assets/202104.png)
 
 Destacados de Abril
 
@@ -11,18 +11,18 @@ Destacados de Abril
 - La integración inicial de DCRDEX se ha fusionado en Decrediton.
 
 Contenido:
-- Desarrollo
-- Comunidad
-- Gobernanza
-- Red
-- Ecosistema
-- Alcanse
-- Eventos
-- Media
-- Discusiones de la comunidad
-- Mercados
-- Relevantes externos
-- Sobre esta edición
+- [Desarrollo](https://github.com/DecredES/translations/blob/master/decredJournal/2021/04/index.md#desarrollo)
+- [Comunidad](https://github.com/DecredES/translations/blob/master/decredJournal/2021/04/index.md#comunidad)
+- [Gobernanza](https://github.com/DecredES/translations/blob/master/decredJournal/2021/04/index.md#gobernanza)
+- [Red](https://github.com/DecredES/translations/blob/master/decredJournal/2021/04/index.md#red)
+- [Ecosistema](https://github.com/DecredES/translations/blob/master/decredJournal/2021/04/index.md#ecosistema)
+- [Alcance](https://github.com/DecredES/translations/blob/master/decredJournal/2021/04/index.md#alcance)
+- [Eventos](https://github.com/DecredES/translations/blob/master/decredJournal/2021/04/index.md#eventos)
+- [Media](https://github.com/DecredES/translations/blob/master/decredJournal/2021/04/index.md#media)
+- [Discusiones de la comunidad](https://github.com/DecredES/translations/blob/master/decredJournal/2021/04/index.md#discusiones-de-la-comunidad)
+- [Mercados](https://github.com/DecredES/translations/blob/master/decredJournal/2021/04/index.md#mercados)
+- [Relevantes externos](https://github.com/DecredES/translations/blob/master/decredJournal/2021/04/index.md#relevantes-externos)
+- [Sobre esta edición](https://github.com/DecredES/translations/blob/master/decredJournal/2021/04/index.md#sobre-esta-edici%C3%B3n)
 
 ## Desarrollo
 
