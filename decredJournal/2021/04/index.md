@@ -1,6 +1,7 @@
 # Revista Decred Abril 2021
 
 ![portada](./assets/202104.png)
+El punto de la integral por @saender
 
 Destacados de Abril
 
