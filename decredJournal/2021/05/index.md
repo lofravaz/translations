@@ -64,22 +64,192 @@ Este comando expresa su confianza en la administración de la tesorería actual 
 ¡Felicitaciones a todas los stake holders por este hito y gracias a todos los [colaboradores](https://twitter.com/matheusd_tech/status/1390981711736053760) que lo han hecho realidad!
 
 ## Desarrollo
-
 [**dcrd**](https://github.com/decred/dcrd)
+
+- Mover el código para manejar la [firma](https://github.com/decred/dcrd/pull/2642) de scripts estándar a su propio subpaquete con el fin de prepararse para la futura división del manejo de scripts estándar del código crítico de consenso.
+- [script rc](https://github.com/decred/dcrd/pull/2646) de OpenBSD actualizado para las características 6.9.
+- Manejo de la [versión](https://github.com/decred/dcrd/pull/2651) de la aplicación reelaborada para analizarla a partir de un solo string, que es más fácil de administrar y es a prueba de errores.
+- Realizar un apagado elegante cuando se recibe la señal [SIGHUP](https://github.com/decred/dcrd/pull/2645).
+- Se agregó la [versión](https://github.com/decred/dcrd/pull/2650) del script al resultado de  `gettxout` RPC. La versión del script será más importante en el futuro cuando se introduzca una nueva versión.
+- [Vacíe](https://github.com/decred/dcrd/pull/2649) la base de datos del bloque en el disco antes de la base de datos UTXO para garantizar que esta última se pueda recuperar después de un apagado no limpio.
+- Se [reformuló](https://github.com/decred/dcrd/pull/2652) la lógica relacionada con UTXO. Esto hace que el flujo sea más fácil de seguir y allana el camino para optimizar la base de datos UTXO.
+
 [**dcrwallet**](https://github.com/decred/dcrwallet)
+
+Fusionado en el lanzamiento de la v1.6.3:
+
+- Heurística mejorada para crear [transacciones divididas](https://github.com/decred/dcrwallet/pull/2034) adicionales para corregir errores de saldo más insuficientes al comprar los tickets.
+- [Selección de entrada](https://github.com/decred/dcrwallet/pull/2035) fija al pagar las tarifas del VSP, resolviendo dos errores: uno en el que las entradas previstas no se estaban utilizando y podrían permanecer bloqueadas, y otro en el que la tarifa de VSP podría pagarse de la cuenta incorrecta, posiblemente degradando la privacidad de las billeteras mezcladas.
+- Asegurar de que las [cuentas](https://github.com/decred/dcrwallet/pull/2037) de billetera previstas se utilicen para pagar la tarifa de VSP y recibir el cambio al sincronizar los tickets de VSP fallidos.
+- [Múltiples](https://github.com/decred/dcrwallet/pull/2045) [correcciones](https://github.com/decred/dcrwallet/pull/2046) para [rastrear](https://github.com/decred/dcrwallet/pull/2048) los tickets administrados por VSP con respecto a la programación de pagos de tarifas, manejo de errores, revocaciones y transacciones de tarifas vencidas.
+- Asegurarse de que {no haya pagos de tarifas duplicados](https://github.com/decred/dcrwallet/pull/2042) y de que el cliente de VSP realice un seguimiento de todos.
+- Realizar un apagado elegante cuando se recibe la señal [SIGHUP](https://github.com/decred/dcrwallet/pull/2039).
+- Agregar un nuevo endpoint de gRPC que expone los tickets y las tarifas [rastreados](https://github.com/decred/dcrwallet/pull/2040) por el cliente VSP (utilizado por Decrediton).
+
+Fusionado en la rama master:
+
+- Implementó el método `gettxout` que devuelve información sobre una salida de transacción no gastada, que es necesaria para que DCRDEX opere una billetera DCR en [modo SPV](https://github.com/decred/dcrdex/pull/788).
+- [Métodos](https://github.com/decred/dcrwallet/pull/1978) implementados para obtener cfilters ([filtros de bloque compacto](https://bitcoinops.org/en/topics/compact-block-filters/)) y el mejor bloque. Son similares a las implementaciones de dcrd y también permiten que DCRDEX administre DCR en modo SPV.
+
 [**Decrediton**](https://github.com/decred/decrediton)
+
+Fusionado en el lanzamiento de la v1.6.3:
+
+- Permitir [enviar](https://github.com/decred/decrediton/pull/3446) fondos entre cuentas en carteras de privacidad (excepto en la cuenta mixta).
+- Mostrar solo la vista "Procesar tickets gestionados" [cuando sea necesario](https://github.com/decred/decrediton/pull/3457).
+- Se corrigió la página en blanco que se muestra al inicio en lugar de una [barra de carga](https://github.com/decred/decrediton/pull/3449).
+- Se corrigió la frase de contraseña incorrecta que permitía [omitir](https://github.com/decred/decrediton/pull/3454) la migración de seguridad de la cuenta.
+- [Bloqueo fijo](https://github.com/decred/decrediton/pull/3453) de la cuenta de la billetera para evitar el bloqueo de las cuentas donde se procesan los tickets de VSP, pero también para bloquear las cuentas que ya no necesitan ser desbloqueadas.
+- Use constantemente Lodash para la [verificación de tipos](https://github.com/decred/decrediton/pull/3135).
+- Se corrigieron las cuentas sin mezclar y cambiar que no se [desbloquearon](https://github.com/decred/decrediton/pull/3476) cuando el comprador automático de tickets está en modo de privacidad.
+- [Directorio](https://github.com/decred/decrediton/pull/3469) de Bitcoin predeterminado fijo en Windows.
+
+Fusionado en la rama master:
+
+- Manejo fijo del valor [cero](https://github.com/decred/decrediton/pull/3468) de "Balance para mantener".
+- Se Introdujo el [script de precarga](https://github.com/decred/decrediton/pull/3397) y convirtió algunas comunicaciones entre los procesos principal y del renderizador a un enfoque más robusto usando invoke / handle. Este es un primer paso para aislar todas las llamadas relacionadas con el nodo para que la integración del nodo se pueda desactivar para el código de la interfaz de usuario principal.
+
+![dex-y-decrediton]()
+
 [**Politeia**](https://github.com/decred/politeia)
+
+La mayor parte del trabajo se ha dedicado a actualizar el código de la interfaz de usuario, probar y corregir errores después de la actualización masiva al nuevo backend de almacenamiento y la nueva API.
+
+- Actualizado [Acerca de Politeia](https://github.com/decred/politeiagui/pull/2378).
+- Poner el token de la propuesta en el [asunto](https://github.com/decred/politeia/pull/1417) de la notificación por correo electrónico.
+- Manejar consistentemente tokens de propuesta [cortos](https://github.com/decred/politeiagui/pull/2365) en el código base de la interfaz.
+- Se corrigieron varios errores de IU relacionados con los [comentarios](https://github.com/decred/politeiagui/pull/2384).
+- [Carga inicial](https://github.com/decred/politeiagui/pull/2395) de la interfaz de usuario.
+- 2 arreglos en backend y ~ 14 correcciones de errores en la interfaz de usuario.
+- [Pruebas unitarias](https://github.com/decred/politeiagui/pull/2364) fijas y de un [extremo a otro](https://github.com/decred/politeiagui/pull/2383) para trabajar con la nueva API de backend.
+- Actualizaciones de dependencia, limpieza de código, mejora de API.
+
+Sistema de gestión de contratistas (CMS):
+
+- Cambió la [visibilidad](https://github.com/decred/politeia/pull/1351) de la revisión por pares de la factura de basada en el dominio del autor a basada en el dominio de la línea de pedido de la factura. Esto permitirá a los contratistas revisar todo el trabajo facturado en su dominio, incluso si proviene de contratistas en otros dominios. Los dominios actuales son Desarrollo, Investigación, Diseño y Marketing.
+- Agregar más [notificaciones](https://github.com/decred/politeia/pull/1353) por correo electrónico: "La presentación oportuna de facturas será mucho más importante una vez que el pago de la tesorería esté completamente automatizado, por lo que es necesario seguir insistiendo".
+- Actualización de documentos y limpieza de código.
+~ 4 correcciones de errores de backend y ~ 1 de UI.
+
+Se ha [lanzado Politeia v1.0.1](https://github.com/decred/politeia/releases/tag/v1.0.1), incluidas todas las correcciones y mejoras de backend anteriores.
+
+El progreso hacia la v1.1.0 ahora se puede rastrear en la página de [Hitos](https://github.com/decred/politeia/milestones).
+
 [**vspd**](https://github.com/decred/vspd)
+
+
+- Se agregaron [enlaces](https://github.com/decred/vspd/pull/247) de explorador de bloques para transacciones de tickets y tarifas a la interfaz de usuario.
+- Se agregó la mejor [altura](https://github.com/decred/vspd/pull/254) de bloque a la respuesta de estado (útil para detectar VSP estancados).
+- Completar la [altura de compra](https://github.com/decred/vspd/pull/250) de tickets para todos los tickets confirmados y muéstrelo en la página de administración.
+- [Estética](https://github.com/decred/vspd/pull/263) mejorada de la página de administración.
+- Agregar un marco para las [actualizaciones](https://github.com/decred/vspd/pull/242) de la base de datos.
+- Registro mejorado al [recuperarse](https://github.com/decred/vspd/pull/255) de fallas en el manejo de solicitudes.
+- Agregar parámetros de [configuración](https://github.com/decred/vspd/pull/249) para el tamaño máximo de registro y los archivos de registro máximos para mantener.
+- [Eliminar las transacciones de tarifas confirmadas](https://github.com/decred/vspd/pull/260) de la base de datos, reduciendo el uso del disco en [~2x](https://github.com/decred/vspd/pull/243#issuecomment-844945549).
+- Almacer cada ticket en su propio [depósito de base de datos](https://github.com/decred/vspd/pull/243). Combinado con la optimización anterior, permite intercambiar ~ 40% más de uso del disco por ~ 50% más rápida inserción y ~ 85% más rápida iteración sobre los tickets.
+
 [**dcrstakepool**](https://github.com/decred/dcrstakepool)
+
+- Se corrigió la [incompatibilidad](https://github.com/decred/dcrstakepool/pull/636) entre dcrstakepool (software VSP antiguo) y dcrwallet v1.6.3 en algunas [configuraciones raras](https://github.com/decred/dcrwebapi/pull/139#issuecomment-843101864).
+
 [**dcrpool**](https://github.com/decred/dcrpool)
+
+- No intente ejecutar con una versión de la base de datos [más reciente](https://github.com/decred/dcrpool/pull/326) de lo esperado
+- Manejar las [señales](https://github.com/decred/dcrpool/pull/327) de apagado `SIGTERM` y `SIGHUP`.
+- Corregir las notificaciones en cadena que se [bloqueaban](https://github.com/decred/dcrpool/pull/324) por el procesamiento de pagos y agregar una solución para el error de [manejo de reorganización](https://github.com/decred/dcrwallet/issues/1740) de dcrwallet.
+
+Los problemas solucionados del tercer [candidato](https://github.com/decred/dcrpool/releases/tag/v1.2.0-rc3) de lanzamiento v1.2.0 fueron descubiertos desde RC2, pero las fallas de confirmación de la base de monedas siguen sin resolverse. El lanzamiento se pospone hasta nuevo aviso mientras el equipo está explorando soluciones.
+
 [**DCRDEX**](https://github.com/decred/dcrdex)
+
+¡Se ha lanzado DCRDEX v0.2.0! Incorpora más de 3 meses de trabajo desde la versión v0.1.5. Los cambios más notables son:
+
+- Mejoras en la interfaz de usuario y la usabilidad que incluyen un diseño receptivo y un gráfico de profundidad interactivo.
+- Soporte para el control de clientes por parte de Decrediton y uso de sus cuentas.
+- Importación / exportación de cuenta.
+- Soporte experimental de Bitcoin Cash (BCH).
+
+Consulta los Avisos importantes y la lista completa de cambios en las [notas de la versión](https://github.com/decred/decred-binaries/releases/tag/v1.6.3#dcrdex-v020).
+
+La [página del DEX](https://dex.decred.org/) guía a través de unos pasos de instalación simplificados. Los usuarios más avanzados pueden obtener los binarios [aquí](https://github.com/decred/decred-binaries/releases/tag/v1.6.3#downloads-v163) e instalarlos manualmente. No olvide [verificar](https://docs.decred.org/advanced/verifying-binaries/) las descargas para asegurarse de que no hayan sido modificadas.
+
+Fusionado en la rama master:
+
+- Soporte inicial de activos [Ethereum del lado del servidor](https://github.com/decred/dcrdex/pull/979).
+- No permitir el [cambio](https://github.com/decred/dcrdex/pull/1055) a una billetera que no pueda liquidar las operaciones activas del usuario.
+- Se solucionó un problema esquivo y de larga data con la actualización de la [puntuación](https://github.com/decred/dcrdex/pull/1083) para usuarios sin conexión.
+- actualizado a los [últimos](https://github.com/decred/dcrdex/pull/953) paquetes dcrd y dcrwallet
+
+Se está realizando un gran trabajo emocionante hacia el [hito 0.3](https://github.com/decred/dcrdex/milestone/12), sobre todo Ethereum y SPV.
+
 [**dcrandroid**](https://github.com/planetdecred/dcrandroid)
+
+- No permitir el envío desde [cuentas no mezcladas](https://github.com/planetdecred/dcrandroid/pull/541).
+- Se agregaron [retrasos](https://github.com/planetdecred/dcrandroid/pull/542) en la entrada de contraseña para resistir ataques de fuerza bruta.
+- Mostrar las transacciones relacionadas con el [staking en la página](https://github.com/planetdecred/dcrandroid/pull/543) de descripción general.
+- Actualizaron las [dependencias](https://github.com/planetdecred/dcrandroid/pull/546) y reemplazó los usos de "CoinShuffle++" con "StakeShuffle".
+- Mantener la [pantalla encendida](https://github.com/planetdecred/dcrandroid/pull/553) hasta que la mezcla se complete o cancele.
+- Mostrar [formato de texto enriquecido](https://github.com/planetdecred/dcrandroid/pull/557) para propuestas Politeia (sin usar WebView)
+- Traducciones al chino y al francés actualizadas.
+- [Billetera fija solo para ver](https://github.com/planetdecred/dcrandroid/pull/560) que se enumera como fuente al enviar fondos.
+
+Combinado en la biblioteca compartida [dcrlibwallet](https://github.com/planetdecred/dcrlibwallet):
+
+- Se agregó un código para obtener la [descripción](https://github.com/planetdecred/dcrlibwallet/pull/192) de la propuesta y se cambió de guardar los archivos de la propuesta a cargarlos a pedido.
+- Integrar un [certificado](https://github.com/planetdecred/dcrlibwallet/pull/193) TLS firmado para [cspp.decred.org](https://cspp.decred.org/) que se requiere cuando se usa mainnet.
+- Errores corregidos con los balances e integración de Politeia.
+
 [**dcrios**](https://github.com/planetdecred/dcrios)
+
+- [Modo de privacidad](https://github.com/planetdecred/dcrios/pull/727) implementado con configuración guiada del mezclador.
+- Mostrar el [equivalente en USD](https://github.com/planetdecred/dcrios/pull/746) del saldo DCR de la billetera en la página Descripción general.
+- Se agregaron [retrasos](https://github.com/planetdecred/dcrios/pull/749) en la entrada de contraseña para resistir ataques de fuerza bruta
+- Cuando hay más de una billetera en la página Descripción general, muestra a [qué billetera](https://github.com/planetdecred/dcrios/pull/776) pertenecen las transacciones.
+- Mostrar [notificaciones](https://github.com/planetdecred/dcrios/pull/766) más específicas para las transacciones de staking (ticket votado o revocado).
+- Mostrar formato de [texto enriquecido](https://github.com/planetdecred/dcrios/pull/773) para propuestas Politeia (sin usar UIWebView)
+- Se corrigió la lista incorrecta de [cuentas](https://github.com/planetdecred/dcrios/pull/765) para enviar.
+- Soporte agregado para iOS 11.
+~ 17 correcciones de errores y ajustes en la interfaz de usuario.
+
 [**godcr**](https://github.com/planetdecred/godcr)
+
+- Páginas implementadas: [descripción general](https://github.com/planetdecred/godcr/pull/395) de tickets, [lista de tickets](https://github.com/planetdecred/godcr/pull/406) y [restaurar billetera](https://github.com/planetdecred/godcr/pull/386).
+- Implementar el botón [Max](https://github.com/planetdecred/godcr/pull/396) para establecer la cantidad máxima de DCR que se puede enviar
+- Agreagar el envío de campos de entrada presionando [Enter](https://github.com/planetdecred/godcr/pull/414).
+- Agregar animaciones de [carga](https://github.com/planetdecred/godcr/pull/400) a algunos modales.
+- Soporte inicial del [modo oscuro](https://github.com/planetdecred/godcr/pull/401).
+- Infraestructura de [traducción de idiomas](https://github.com/planetdecred/godcr/pull/426) agregada.
+~ 14 correcciones de errores.
+
+Elias Naur (creador de la biblioteca Gio que da poder a godcr) ha revisado amablemente el código de la interfaz de usuario y ha compartido sus [recomendaciones](https://paste.sr.ht/~eliasnaur/cea1d29d6a5f96668b5e166c2f39ef596974574f). Se crearon problemas para abordarlos, y algunos ya están completados (por ejemplo, [#409](https://github.com/planetdecred/godcr/issues/409), [#411](https://github.com/planetdecred/godcr/issues/411), [#416](https://github.com/planetdecred/godcr/issues/416)).
+
+![godcr-vista]()
+
 [**dcrdata**](https://github.com/decred/dcrdata)
+  
+- [Versión inicial](https://github.com/decred/dcrdata/pull/1824) de la nueva página del fondo de tesorería `/treasury`.
+- [Mostrar](https://github.com/decred/dcrdata/pull/1827) las transacciones de gasto del fondo de tesorería en la página de [mempool](https://dcrdata.decred.org/mempool), enviar - votos Sí / No en la página de transacciones de voto en el ticket y votar el recuento en la página de transacciones de tspend.
+- Agregar un endpoint más simple para [consultar los tipos de cambio](https://github.com/decred/dcrdata/pull/1826).
+- Agregó la parte de [monedas mixtas](https://github.com/decred/dcrdata/pull/1825) a la [página de inicio](https://dcrdata.decred.org/) (en Distribución).
+
 [**docs**](https://github.com/decred/dcrdocs)
+
+- Se eliminó el [HTML en línea](https://github.com/decred/dcrdocs/pull/1168) para las imágenes: un paso hacia el empaquetado de todos los documentos como un solo [archivo PDF](https://github.com/decred/dcrdocs/issues/923).
+- Varias actualizaciones sobre el replanteo de [vspd](https://github.com/decred/dcrdocs/pull/1171).
+
 [**decred.org**](https://github.com/decred/dcrweb)
 
+- [`/release`](https://decred.org/release/) página de lanzamiento [actualizada](https://github.com/decred/dcrweb/pull/982) para v1.6.3.
+- [Etiquetas SEO](https://github.com/decred/dcrweb/pull/979) mejoradas.
+- Contribuidores [inactivos](https://github.com/decred/dcrweb/pull/990) eliminados.
+- [Página actualizada](https://github.com/decred/dcrweb/pull/957) de [`/exchanges`](https://decred.org/exchanges/).
+- Sección de [carteras de hardware](https://github.com/decred/dcrweb/pull/989) agregada en la página [`/wallets`](https://decred.org/wallets/).
+
+Otros:
+
+- [Actualización](https://bounty.decred.org/2021/05/status-update/) del programa Bug Bounty: un total de 180 envíos procesados hasta ahora, y 16 de ellos son elegibles para un pago.
+- Se extrajo una configuración ligera de [tema](https://github.com/decredcommunity/jekyll-themes) de Jekyll en su propio repositorio para su reutilización. Permite publicar algunas páginas de Markdown sin scripts de seguimiento de terceros. Puede verlo en acción en mini sitios web para [eventos](https://decredcommunity.github.io/events/index/), [propuestas](https://decredcommunity.github.io/proposals/) y proyectos de [estadísticas de redes sociales](https://decredcommunity.github.io/social-media-stats/).
+- Las traducciones requieren un mantenimiento continuo. Únase a la sala de chat [#translations](https://chat.decred.org/#/room/#translations:decred.org) para coordinarse con los otros traductores y desarrolladores.
 
 ## Comunidad
 
