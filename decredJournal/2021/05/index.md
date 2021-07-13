@@ -1,5 +1,7 @@
 # Revista Decred Mayo 2021
 
+![portada](./assets/202105.png)
+
 Novedades en Mayo
 
 - El nuevo sistema del fondo de tesorería está recibiendo activamente recompensas en bloque y ya se ha probado de manera exitosa con las nuevas transacciones tspend.
@@ -109,7 +111,7 @@ Fusionado en la rama master:
 - Manejo fijo del valor [cero](https://github.com/decred/decrediton/pull/3468) de "Balance para mantener".
 - Se Introdujo el [script de precarga](https://github.com/decred/decrediton/pull/3397) y convirtió algunas comunicaciones entre los procesos principal y del renderizador a un enfoque más robusto usando invoke / handle. Este es un primer paso para aislar todas las llamadas relacionadas con el nodo para que la integración del nodo se pueda desactivar para el código de la interfaz de usuario principal.
 
-![dex-y-decrediton]()
+![dex-y-decrediton](./assets/dcrdex.png)
 
 [**Politeia**](https://github.com/decred/politeia)
 
@@ -223,7 +225,7 @@ Combinado en la biblioteca compartida [dcrlibwallet](https://github.com/planetde
 
 Elias Naur (creador de la biblioteca Gio que da poder a godcr) ha revisado amablemente el código de la interfaz de usuario y ha compartido sus [recomendaciones](https://paste.sr.ht/~eliasnaur/cea1d29d6a5f96668b5e166c2f39ef596974574f). Se crearon problemas para abordarlos, y algunos ya están completados (por ejemplo, [#409](https://github.com/planetdecred/godcr/issues/409), [#411](https://github.com/planetdecred/godcr/issues/411), [#416](https://github.com/planetdecred/godcr/issues/416)).
 
-![godcr-vista]()
+![godcr-vista](./assets/godcr.png)
 
 [**dcrdata**](https://github.com/decred/dcrdata)
   
@@ -387,7 +389,7 @@ Otro contenido no en Inglés:
 - Nuevo fondo de tesorería en Decred cubierto por [CriptoNoticias](https://www.criptonoticias.com/comunidad/protocolo-decred-esta-5-dias-descentralizar-tesoreria/).
 - Parece que @Dominic ejecuta en secreto un nuevo podcast Decred en chino con 3 episodios ya publicados: [primero](https://twitter.com/wanbihou/status/1383625001098649602) con un ingeniero de hardware anónimo sobre eventos en la comunidad, [segundo](https://twitter.com/wanbihou/status/1388412787076984832) sobre gobernanza con decreder y [tercero](https://twitter.com/wanbihou/status/1393825045902807041) con Mable Jiang de 51% Podcast (donde @Dominic fué un [invitado](https://podcasts.apple.com/cn/podcast/51-with-mable-jiang-presented-by-multicoin-capital/id1540917284?l=en&i=1000515571194) recientemente).
 
-![lego-image]()
+![lego-image](./assets/lego-dcr.png)
 
 ## Discusiones
 
@@ -407,7 +409,7 @@ Discusiones seleccionadas de Twitter:
 >
 > Un DAO de Capa 1 con su propia tesorería, su propio exchange, su propia moneda y su propia billetera. ([@ammarooni](https://twitter.com/Ammarooni/status/1390869248910794753)).
 
-![Decred-cake]()
+![pastel-decred](./assets/pastel-decred.png)
 
 ## Mercados
 
