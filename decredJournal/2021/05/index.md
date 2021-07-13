@@ -10,19 +10,19 @@ Novedades en Mayo
 
 Contenido
 
-- [Lanzamiento del parche v1.6.3]()
-- [Nueva tesorería activada]()
-- [Desarrollo]()
-- [Comunidad]()
-- [Gobernanza]()
-- [Red]()
-- [Ecosistema]()
-- [Divulgación]()
-- [Media]()
-- [Discusiones]()
-- [Mercados]()
-- [Relevante Externo]()
-- [Sobre esta versión]()
+- [Lanzamiento del parche v1.6.3](https://github.com/DecredES/translations/blob/master/decredJournal/2021/05/index.md#nuevo-parche-v163)
+- [Nueva tesorería activada](https://github.com/DecredES/translations/blob/master/decredJournal/2021/05/index.md#la-nueva-tesorer%C3%ADa-por-fin-se-encuentra-activa)
+- [Desarrollo](https://github.com/DecredES/translations/blob/master/decredJournal/2021/05/index.md#desarrollo)
+- [Comunidad](https://github.com/DecredES/translations/blob/master/decredJournal/2021/05/index.md#comunidad)
+- [Gobernanza](https://github.com/DecredES/translations/blob/master/decredJournal/2021/05/index.md#gobernanza)
+- [Red](https://github.com/DecredES/translations/blob/master/decredJournal/2021/05/index.md#red)
+- [Ecosistema](https://github.com/DecredES/translations/blob/master/decredJournal/2021/05/index.md#ecosistema)
+- [Alcance](https://github.com/DecredES/translations/blob/master/decredJournal/2021/05/index.md#alcance)
+- [Media](https://github.com/DecredES/translations/blob/master/decredJournal/2021/05/index.md#media)
+- [Discusiones](https://github.com/DecredES/translations/blob/master/decredJournal/2021/05/index.md#discusiones)
+- [Mercados](https://github.com/DecredES/translations/blob/master/decredJournal/2021/05/index.md#mercados)
+- [Relevante Externo](https://github.com/DecredES/translations/blob/master/decredJournal/2021/05/index.md#relevantes-externos)
+- [Sobre esta versión](https://github.com/DecredES/translations/blob/master/decredJournal/2021/05/index.md#sobre-esta-edici%C3%B3n)
 
 ## Nuevo parche V1.6.3
 La última versión de nuestra billetera insignia de GUI, Decrediton, soluciona problemas con el staking de VSP, hace que la billetera sea más "genial" con el desbloqueo granular de cuentas y agrega la integración experimental de la [nueva versión del DCRDEX](https://xaur.github.io/decred-news/journal/202105#dcrdex). La línea de comandos dcrwallet también se actualiza con correcciones y mejoras del staking en VSP.
