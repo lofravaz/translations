@@ -54,3 +54,20 @@ Estadísticas de la comunidad :
 - Estrellas en el repo de [dcrd](https://github.com/decred/dcrd): 601 (+3), forks: 256 (+1)
 
 El resumen de junio de la inusual dinámica de las redes sociales se puede encontrar [aquí](https://decredcommunity.github.io/social-media-stats/posts/20210711.1).
+
+## Gobernanza
+
+En junio, el [nuevo fondo de la tesorería](https://dcrdata.decred.org/treasury?chart=balance&zoom=knj8yxs0-kse64gw0&bin=month) recibió 10 510 DCR por un valor de 1.4 millones de dólares a la tasa promedio de mayo de 131.52 dólares. Se gastaron 1 460 DCR (de la dirección de tesorería heredada) para pagar a los contratistas, por un valor de $192 000 a la tasa de junio, o $253 000 a la tasa de facturación de mayo de $173.47. Al 2 de julio, el saldo combinado de la nueva tesorería [heredada](https://dcrdata.decred.org/address/Dcur2mcGjmENx4DhNqDctW5wJCVyT3Qeqkx?chart=balance&zoom=ijhhasg0-kr5vh280&bin=month) es de 692 988 DCR (91.4 millones de dólares a 131.88 dólares). 
+
+La primera transacción real de la nueva tesorería no se extrajo debido al [bug](https://xaur.github.io/decred-news/journal/202106#new-treasury-bug) descrito anteriormente y los contratistas recibieron el pago de la antigua manera. A pesar de que no funcionó según lo [planeado](https://twitter.com/behindtext/status/1402628975676035078), esa transacción mostró un alto compromiso de los votantes en cadena y un alto apoyo de la administración actual de la tesorería: 11 943 tickets, 17 280 votaron Sí y cero votaron No, fue una participación del 69%. Este podría aumentar aún más cuando se implemente la votación TSPEND para los usuarios de VSP, que actualmente poseen alrededor del 20% de los tickets en vivo.
+
+Se publicaron tres propuestas en Politeia y las tres han sido aprobadas con fuertes índices de aceptación.
+
+
+- La propuesta de [cambio de consenso de actualizaciones de versión explícita](https://proposals.decred.org/record/3a98861) alcanzó un nuevo hito de aprobación con un 99.9% de votos a favor y solo 13 tickets votando en contra de la propuesta, entre el 47% de participación.
+
+- La cuarta iteración de la [propuesta](https://proposals.decred.org/record/e1f104b) de Bug Bounty regresó con un calendario de pagos mejorado y fue aprobada con un 98.5% de votos a favor y una participación del 47%. Esto es + 0.5% de votos a favor y + 15% de participación en comparación con la [Fase 3](https://proposals-archive.decred.org/proposals/2170df6). @degeri [agradece](https://twitter.com/degeri_crypto/status/1409714139396591617) a los stakeholders por la creciente cantidad de fe y confianza.
+
+- La segunda fase de la gran [propuesta](https://proposals.decred.org/record/af9942a) de traducción fue aprobada con un 97.3% de aprobación y una participación del 46%, un gran aumento en el apoyo del 75% Sí y el 28% de participación para la primera [propuesta](https://proposals-archive.decred.org/proposals/c093b8a).
+- 
+Consulte el [issue #43](https://blockcommons.red/politeia-digest/issue043/) de Politeia Digest para obtener más detalles sobre las propuestas del mes.
